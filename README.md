@@ -1,9 +1,8 @@
+# Catálogo de Livros — Angular
 
 [Projeto](#-projeto) • [Como baixar e executar](#-como-baixar-e-executar) • [Procedimentos](#-procedimentos) • [Tecnologias utilizadas](#-tecnologias-utilizadas) • [Autor](#-autor)
 
 ---
-
-</div>
 
 ## 📋 Projeto
 
@@ -11,15 +10,22 @@ Missão Prática com o objetivo de implementar front-end web com base no framewo
 
 ## 📥 Como baixar e executar
 
-Para baixar os arquivos deste repositório, você deve ter o [GitHub](https://github.com/) instalado em seu dispositivo.
+Com Git, Node.js e npm disponíveis, execute:
 
-Após instalado, você deverá acessar a guia `Arquivo` → `Clonar repositório` → `URL` e incluir o caminho `guedesert/conhecendo-outro-framework`.
+```sh
+git clone https://github.com/alvesvslucas/Nivel-4-Mundo-2.git
+cd Nivel-4-Mundo-2/livros-angular
+npm install
+npm start
+```
 
-Além disso, é interessante que você tenha um bom editor para trabalhar com os códigos, dos quais eu recomendo o uso do, [Visual Studio Code](https://code.visualstudio.com/).
+Abra o endereço exibido pelo Angular CLI. O manifesto declara Angular 14, TypeScript 4.7 e Bootstrap 5.2; não define a versão de Node em `engines`. Na mesma pasta, `npm run build` gera o build e `npm test` aciona o Karma. A instalação, o build e os testes não foram executados nesta revisão.
+
+O README anterior indicava [guedesert/conhecendo-outro-framework](https://github.com/guedesert/conhecendo-outro-framework) como referência; esse vínculo é preservado como crédito, e o comando acima clona esta cópia.
 
 ## 🔗 Procedimentos
 
-Durante o projeto foram desenvolvidos 03 procedimentos descritos abaixo:
+Os procedimentos descritos no projeto estão apresentados abaixo:
 
 <table>
   <tr>
@@ -70,7 +76,4 @@ Para a construção e execução do projeto foram utilizadas as seguintes tecnol
 
 ## 👥 Autor
 
-| Aluno                                                  | Matrícula    | E-mail                                      |
-| ------------------------------------------------------ | ------------ | ------------------------------------------- |
-| [Lucas Alves Vieira da Silvas](https://github.com/alvesvslucas) | 202310363402 | [📧](mailto:202310363402@alunos.estacio.br) |
-
+[Lucas Alves Vieira da Silva](https://github.com/alvesvslucas).
